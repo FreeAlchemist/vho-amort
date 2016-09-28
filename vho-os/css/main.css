@@ -1,0 +1,69 @@
+#acc{
+	margin: 10px;
+	font-size: 14px;
+}
+.acc-attr{
+	border:solid black 1px;
+}
+
+#doc{
+	margin: 10px;
+	position: absolute;
+	top: 25%;
+}
+
+#comment{
+	margin: 10px;
+	position: absolute;
+	left: 35%;
+	top: 25%;
+	font-size: 16px;
+}
+
+#glossary{
+	margin: 10px;
+	position: absolute;
+	left: 35%;
+	top: 52%;
+	font-size: 16px;
+}
+
+#glossary table td{
+	border:solid black 1px;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+	font-size: 12px;
+	text-align: center;
+	width: 90%;
+}
+
+.doc-attr{
+	color: Black;
+	margin-bottom: 8px;
+	border:solid black 1px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+	line-height: 25px;
+	background-color: Linen;
+}
+.doc-attr:hover{cursor: pointer;}
+.doc-attr:active{
+	background-color: blue;
+	color: Linen;
+}
+
+#tr1{
+	height: 50px;
+}
+#tr2{
+	height: 85px;
+}
+
+h3{
+	margin-left: 10px;
+}

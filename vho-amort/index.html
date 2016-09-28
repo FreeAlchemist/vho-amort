@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VHO-OS</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="amortdata">
+<h3>Учет ОС. Расчет данных для амортизации</h3>
+<p>Количество знаков после запятой при расчете нормы <input id="comma-range" type="range" min="1" max="10" value="8" step="1">
+<span id="comma-text"></span></p>
+<p><span class="title">Стоимость:</span> <input id="cost" type="number" value="33204.60" min="1" max="9999999999" step="1000"></p>
+<p><span class="title">СПИ (мес.):</span> <input id="spi-month" type="number" value="241" min="1" max="12000"></p>
+<table cellspacing="0">
+	<tr>
+		<td  class="td-title">СПИ (год):</td>
+		<td id="spi-year"></td>
+		<td>СПИ (мес) / 12</td>
+	</tr>
+	<tr>
+		<td  class="td-title">Годовая норма:</td>
+		<td id="norma-year"></td>
+		<td>100 / СПИ (год)</td>
+	</tr>
+	<tr>
+		<td  class="td-title">Годовая сумма:</td>
+		<td id="sum-year"></td>
+		<td>Стоимость * Годовая норма / 100</td>
+	</tr>
+	<tr>
+		<td  class="td-title">Месячная норма:</td>
+		<td id="norma-month"></td>
+		<td>Годовая норма / 12</td>
+	</tr>
+	<tr>
+		<td  class="td-title">Месячная сумма:</td>
+		<td id="sum-month"></td>
+		<td>Годовая сумма / 12</td>
+	</tr>
+	<tr>
+		<td  class="td-title">Амортизация в день:</td>
+		<td id="sum-day"></td>
+		<td>Месячная сумма / 30 (30.4483679583)</td>
+	</tr>
+</table>
+<p>За <input id="period" type="number" value="31" min="1" max="31"> дней начислит <span id="sum-period">0</span></p>
+<hr>
+<p>При амортизации в день <input id="test-sum-day" type="number" value="4.5250372758" min="1" max="999999"> за <input id="test-period" type="number" value="31" min="1" max="31"> дней начислит <span id="test-sum-period">0</span></p>
+<div id="footer"><hr>Рябченко Олег Дмитриевич, 2016</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

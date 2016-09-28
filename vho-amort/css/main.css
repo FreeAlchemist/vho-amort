@@ -1,0 +1,59 @@
+#amortdata{
+	background-color: Aliceblue;
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	right: 20%;
+	border: solid;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	border: solid 1px black;
+	padding: 5px;
+}
+
+input{
+	padding-left: 5px;
+}
+
+#comma-range{
+	width: 110px;
+}
+
+#cost,#spi-month{
+	width: 140px;
+}
+
+#test-sum-day{
+	width: 117px;
+}
+
+#period{
+	width: 80px;
+	text-align: center;
+}
+
+#test-period{
+	width: 50px;
+	text-align: center;
+}
+
+.title{
+	width: 100px;
+}
+
+.td-title{
+	width: 220px;
+}
+
+#footer{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 10pt;
+}
